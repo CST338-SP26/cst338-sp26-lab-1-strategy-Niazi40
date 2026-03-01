@@ -47,7 +47,8 @@ public abstract class  Monster {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
+        if (this == o)
+            return true;
         if (!(o instanceof Monster monster)) return false;
         return Objects.equals(hp, monster.hp) &&
                 Objects.equals(xp, monster.xp) &&
