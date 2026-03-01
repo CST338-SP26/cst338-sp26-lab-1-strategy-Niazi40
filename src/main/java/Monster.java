@@ -17,22 +17,27 @@ public abstract class  Monster {
     }
 
     public Integer getHp() {
+
         return hp;
     }
 
     public void setHp(Integer hp) {
+
         this.hp = hp;
     }
 
     public Integer getXp() {
+
         return xp;
     }
 
     public Integer getMaxHp() {
+
         return maxHp;
     }
 
     public HashMap<String, Integer> getItems() {
+
         return items;
     }
 
