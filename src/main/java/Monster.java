@@ -4,7 +4,7 @@ import java.util.*;
 public abstract class  Monster {
 
     private final Integer hp;
-    private Integer xp;
+    private final Integer xp;
     private final Integer maxHp;
 
    private HashMap<String, Integer> items = new HashMap<>();
@@ -31,7 +31,7 @@ public abstract class  Monster {
         return maxHp;
     }
 
-    public HashMap<String, Integer> getItems() {
+    public HashMap<String, Integer>getItems() {
 
         return items;
     }
