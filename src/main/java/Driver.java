@@ -5,7 +5,7 @@ public class Driver {
     public static void main(String[] args) {
 
         HashMap<String, Integer> items = new HashMap<>();
-        items.put("gold", 5);
+        items.put("gold", 1);
 
         List<Monster> monsters = new ArrayList<>();
 
