@@ -3,9 +3,9 @@ import java.util.*;
 
 public abstract class  Monster {
 
-    private  Integer hp;
-    private  Integer xp;
-    private  Integer maxHp;
+    private  final Integer hp;
+    private  final Integer xp;
+    private  final Integer maxHp;
 
    private HashMap<String, Integer> items = new HashMap<>();
 
